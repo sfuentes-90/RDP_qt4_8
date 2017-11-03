@@ -1,7 +1,7 @@
 # This file is generated automatically. Do not edit.
 # Use project properties -> Build -> Qt -> Expert -> Custom Definitions.
 TEMPLATE = app
-DESTDIR = dist/Debug/GNU-Linux
+DESTDIR = dist/Debug/MinGW_x32-Windows
 TARGET = Petri
 VERSION = 1.0.0
 CONFIG -= debug_and_release app_bundle lib_bundle
@@ -13,7 +13,7 @@ HEADERS += Controller/GraphicsScene.h Controller/Petri.h MainWindow.h Model/Matr
 FORMS += MainWindow.ui View/ArcDialog.ui View/MatrixView.ui View/NodeDialog.ui View/TransitionDialog.ui
 RESOURCES += resources.qrc
 TRANSLATIONS +=
-OBJECTS_DIR = build/Debug/GNU-Linux
+OBJECTS_DIR = build/Debug/MinGW_x32-Windows
 MOC_DIR = 
 RCC_DIR = 
 UI_DIR = 

@@ -3,6 +3,7 @@
 
 #include <vector>
 #include "Place.h"
+#include <cmath>
 
 class PlaceList {
 private:

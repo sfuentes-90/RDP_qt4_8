@@ -4,9 +4,9 @@
 #include <QDialog>
 #include <QTableWidget>
 #include <QTableWidgetItem>
-#include "../ProyectoMF/Model/Matrix.h"
-#include "../ProyectoMF/Model/TransitionList.h"
-#include "../ProyectoMF/Model/PlaceList.h"
+#include "../Model/Matrix.h"
+#include "../Model/TransitionList.h"
+#include "../Model/PlaceList.h"
 
 namespace Ui {
 class MatrixView;

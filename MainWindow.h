@@ -7,11 +7,11 @@
 #include <QtGui>
 #include <QtCore>
 
-#include "../ProyectoMF/Model/PlaceList.h"
-#include "../ProyectoMF/Model/TransitionList.h"
-#include "../ProyectoMF/Model/Matrix.h"
-#include "../ProyectoMF/Controller/GraphicsScene.h"
-#include "../ProyectoMF/Controller/Petri.h"
+#include "../Model/PlaceList.h"
+#include "../Model/TransitionList.h"
+#include "../Model/Matrix.h"
+#include "../Controller/GraphicsScene.h"
+#include "../Controller/Petri.h"
 
 namespace Ui {
 class MainWindow;

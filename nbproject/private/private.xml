@@ -6,16 +6,6 @@
     </data>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/home/santiago/NetBeansProjects/Petri/.git/config</file>
-            <file>file:/home/santiago/NetBeansProjects/Petri/Model/Transition.h</file>
-            <file>file:/home/santiago/NetBeansProjects/Petri/Controller/GraphicsScene.h</file>
-            <file>file:/home/santiago/NetBeansProjects/Petri/Controller/Petri.h</file>
-            <file>file:/home/santiago/NetBeansProjects/Petri/Model/Place.cpp</file>
-            <file>file:/home/santiago/NetBeansProjects/Petri/Model/TransitionList.h</file>
-            <file>file:/home/santiago/NetBeansProjects/Petri/Model/PlaceList.cpp</file>
-            <file>file:/home/santiago/NetBeansProjects/Petri/Model/Matrix.h</file>
-            <file>file:/home/santiago/NetBeansProjects/Petri/Model/PlaceList.h</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

@@ -1,0 +1,23 @@
+<RCC>
+    <qresource lang="img" prefix="/Images">
+        <file>Resources/1rightarrow.png</file>
+        <file>Resources/draw_eraser.png</file>
+        <file>Resources/draw_freehand.png</file>
+        <file>Resources/file_export.png</file>
+        <file>Resources/filenew.png</file>
+        <file>Resources/fileopen.png</file>
+        <file>Resources/filesave.png</file>
+        <file>Resources/filesaveas.png</file>
+        <file>Resources/list_add.png</file>
+        <file>Resources/matrix.png</file>
+        <file>Resources/window_close.png</file>
+        <file>Resources/node_add.png</file>
+        <file>Resources/transition_add.png</file>
+        <file>Resources/go_previous_rtl.png</file>
+        <file>Resources/arc.png</file>
+        <file>Resources/node.png</file>
+        <file>Resources/play.png</file>
+        <file>Resources/transition.png</file>
+        <file>Resources/generate.png</file>
+    </qresource>
+</RCC>

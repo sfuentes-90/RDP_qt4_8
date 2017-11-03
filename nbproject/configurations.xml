@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f3" displayName="Controller" projectFiles="true">
+        <itemPath>Controller/GraphicsScene.h</itemPath>
+        <itemPath>Controller/Petri.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="Model" projectFiles="true">
+        <itemPath>Model/Matrix.h</itemPath>
+        <itemPath>Model/Place.h</itemPath>
+        <itemPath>Model/PlaceList.h</itemPath>
+        <itemPath>Model/Transition.h</itemPath>
+        <itemPath>Model/TransitionList.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="View" projectFiles="true">
+        <itemPath>View/ArcDialog.h</itemPath>
+        <itemPath>MainWindow.h</itemPath>
+        <itemPath>View/MatrixView.h</itemPath>
+        <itemPath>View/NodeDialog.h</itemPath>
+        <itemPath>View/TransitionDialog.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>View/ArcDialog.ui</itemPath>
+      <itemPath>MainWindow.ui</itemPath>
+      <itemPath>View/MatrixView.ui</itemPath>
+      <itemPath>View/NodeDialog.ui</itemPath>
+      <itemPath>View/TransitionDialog.ui</itemPath>
+      <itemPath>resources.qrc</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f3" displayName="Controller" projectFiles="true">
+        <itemPath>Controller/GraphicsScene.cpp</itemPath>
+        <itemPath>Controller/Petri.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="Model" projectFiles="true">
+        <itemPath>Model/Matrix.cpp</itemPath>
+        <itemPath>Model/Place.cpp</itemPath>
+        <itemPath>Model/PlaceList.cpp</itemPath>
+        <itemPath>Model/Transition.cpp</itemPath>
+        <itemPath>Model/TransitionList.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="View" projectFiles="true">
+        <itemPath>View/ArcDialog.cpp.cc</itemPath>
+        <itemPath>View/MatrixView.cpp.cc</itemPath>
+        <itemPath>View/NodeDialog.cpp.cc</itemPath>
+        <itemPath>View/TransitionDialog.cpp.cc</itemPath>
+      </logicalFolder>
+      <itemPath>MainWindow.cpp.cc</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+      </compileType>
+      <item path="Controller/GraphicsScene.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Controller/GraphicsScene.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Controller/Petri.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Controller/Petri.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainWindow.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MainWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainWindow.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Model/Matrix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Model/Matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Model/Place.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Model/Place.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Model/PlaceList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Model/PlaceList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Model/Transition.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Model/Transition.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Model/TransitionList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Model/TransitionList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/ArcDialog.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="View/ArcDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/ArcDialog.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/MatrixView.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="View/MatrixView.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/MatrixView.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/NodeDialog.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="View/NodeDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/NodeDialog.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/TransitionDialog.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="View/TransitionDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/TransitionDialog.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="resources.qrc" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Controller/GraphicsScene.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Controller/GraphicsScene.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Controller/Petri.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Controller/Petri.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainWindow.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MainWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainWindow.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Model/Matrix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Model/Matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Model/Place.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Model/Place.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Model/PlaceList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Model/PlaceList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Model/Transition.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Model/Transition.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Model/TransitionList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Model/TransitionList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/ArcDialog.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="View/ArcDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/ArcDialog.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/MatrixView.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="View/MatrixView.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/MatrixView.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/NodeDialog.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="View/NodeDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/NodeDialog.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/TransitionDialog.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="View/TransitionDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="View/TransitionDialog.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="resources.qrc" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
